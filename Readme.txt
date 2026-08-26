@@ -5,8 +5,8 @@ data-driven piecewise-linear expanding maps.
 
 This repository accompanies the paper:
 
-**Deterministic Sampling of Autoencoder Latent Spaces via Data-Driven
-Piecewise-Linear Expanding Maps**
+Deterministic Sampling of Autoencoder Latent Spaces via Data-Driven
+Piecewise-Linear Expanding Maps
 
 ## Overview
 
@@ -48,13 +48,11 @@ invariant measure or global chaotic dynamics.
 
 The method can be used in:
 
-* **single-seed mode**, which generates a trajectory from a single initial
+* single-seed mode, which generates a trajectory from a single initial
   latent vector,
-* **multi-seed mode**, which evolves an ensemble of initial latent vectors
+* multi-seed mode, which evolves an ensemble of initial latent vectors
   for distribution-oriented sampling.
 
 ## Installation
 
-```bash
 pip install numpy scipy scikit-learn
-```
