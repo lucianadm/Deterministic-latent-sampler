@@ -1,5 +1,5 @@
 import numpy as np
-from chaotic_sampler import chaotic_latent_sampler
+from chaotic_sampler import chaotic_sampler
 
 import numpy as np
 
