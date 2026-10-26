@@ -4,7 +4,7 @@ from chaotic_sampler import chaotic_sampler
 import numpy as np
 
 # Example: Rössler latent data
-data = np.loadtxt("rossler_trajectory.txt")
+data = np.loadtxt("lorenz_trajectory.txt")
 
 #Single-seed
 res = chaotic_sampler(data, mode="single")
